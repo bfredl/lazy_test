@@ -1,0 +1,17 @@
+.{
+    .name = "dep_x",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .bar = .{
+            .url = "git+https://github.com/bfredl/bar#95fa922b100e5701474367741160fe704b8b34cc",
+            .hash = "1220d85df96267cf628c11ab2690ee84f0cf3ddd5006283fb6cd738ffa1aa6155215",
+            .lazy = true,
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}

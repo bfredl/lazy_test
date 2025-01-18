@@ -1,0 +1,14 @@
+.{
+    .name = "lazy_test",
+    .version = "0.0.0",
+
+    .dependencies = .{
+        .dep_x = .{ .path = "./dep_x" },
+    },
+
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
